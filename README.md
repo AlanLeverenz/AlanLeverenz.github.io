@@ -1,2 +1,1 @@
-# AlanLeverenz.github.io
-github repo landing page
+# alanleverenz-github.io
