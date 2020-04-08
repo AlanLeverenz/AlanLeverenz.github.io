@@ -29,6 +29,7 @@ h3 {
     color: rgb(88, 119, 221);
     font-family: 'Oxygen', sans-serif;
 }
+
 .info-div {
     padding: 0;
 }
@@ -56,6 +57,10 @@ p:last-child {
 
 .wrapper {
     text-align: center;
+}
+
+.wrapper-flex {
+    flex-wrap: wrap;
 }
 
 .work {
@@ -93,6 +98,17 @@ p:last-child {
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
     opacity: .9;
+}
+
+.work-info, .work-info-title {
+    text-align: left;
+}
+
+.work-info-title {
+    color: rgb(48, 79, 181);
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.5rem;
+
 }
 
 /* sidebar */
@@ -138,10 +154,6 @@ p:last-child {
     opacity: 0.6;
   }
 
-
-.flex {
-    flex-wrap: wrap;
-}
 
 
 
