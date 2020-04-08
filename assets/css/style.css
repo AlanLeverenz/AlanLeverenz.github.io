@@ -2,7 +2,8 @@
 
 .container {
     max-width: 800px;
-    margin: 5%;
+    margin: 1em auto;
+    width: 100%;
 }
 
 .auth-info-section {
@@ -55,18 +56,25 @@ p:last-child {
 
 /* portfolio */
 
-.wrapper {
+/* .wrapper {
     text-align: center;
-}
+    align-items: top;
+} */
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
 .wrapper-flex {
     flex-wrap: wrap;
+    /* margin: 0 auto; */
 }
 
 .work {
     width: 300px;
     position: relative;
-    margin: 0 10px 10px;
+    margin: 0 1em;
     display: inline-block;
     position: relative;
     display: flex;
@@ -79,14 +87,8 @@ p:last-child {
     opacity: 1;
 }
 
-.auth-image {
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-}
-
 .work h3 {
-    border-bottom: 0;
+    /* border-bottom: 0;
     background: #4aaaa5;
     color: #fff;
     text-align: center;
@@ -95,17 +97,17 @@ p:last-child {
     padding: 10px;
     width: 100%;
     line-height: 20px;
-    margin-bottom: 0;
+    margin-bottom: 0; */
     font-weight: 300;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
-    opacity: .9;
+    /* opacity: .9; */
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
+.auth-image {
+    width: auto;
+    height: auto;
+    margin-top: 1em;
 }
 
 /* .links {
