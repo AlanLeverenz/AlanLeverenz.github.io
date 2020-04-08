@@ -56,19 +56,12 @@ p:last-child {
 
 /* portfolio */
 
-/* .wrapper {
-    text-align: center;
-    align-items: top;
-} */
-
 .wrapper {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
 }
 .wrapper-flex {
     flex-wrap: wrap;
-    /* margin: 0 auto; */
 }
 
 .work {
@@ -88,20 +81,9 @@ p:last-child {
 }
 
 .work h3 {
-    /* border-bottom: 0;
-    background: #4aaaa5;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    bottom: 20px;
-    padding: 10px;
-    width: 100%;
-    line-height: 20px;
-    margin-bottom: 0; */
     font-weight: 300;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
-    /* opacity: .9; */
 }
 
 .auth-image {
@@ -110,9 +92,10 @@ p:last-child {
     margin-top: 1em;
 }
 
-/* .links {
-    text-align: center;
-} */
+.links {
+    margin: 1em;
+
+}
 
 .work-info, .work-info-title {
     text-align: left;
