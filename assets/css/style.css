@@ -9,9 +9,13 @@
 .auth-info-section {
     min-width: 320px;
     width: 100%;
-    border: 1px solid #ccc;
     padding:15px;
+    /* border: 1px solid #ccc; */
 }
+
+/* .name-title {
+    border-bottom: 1px solid #cecece;
+} */
 
 /* font-family: 'Ubuntu', sans-serif;
 font-family: 'Alata', sans-serif;
@@ -33,6 +37,7 @@ h3 {
 
 .info-div {
     padding: 0;
+    /* background-image: linear-gradient( #e9f3fa, white ); */
 }
 
 .my-image {
