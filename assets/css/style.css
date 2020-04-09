@@ -43,12 +43,21 @@ h3 {
     border: 0 none;
 }
 
+.icons {
+    text-align: center;
+}
+
+.icon-image {
+    height: 60px;
+}
+
 p:last-child {
     margin-bottom: 0;
   }
 
 #instructions {
     text-align: center;
+    margin-top: 1em;
 }
 
 .img-thumbnail {
@@ -109,11 +118,6 @@ p:last-child {
     margin-top: 1em;
 }
 
-.links {
-    margin: 1em;
-
-}
-
 .work-info, .work-info-title {
     text-align: left;
 }
@@ -126,6 +130,10 @@ p:last-child {
 }
 
 /* sidebar */
+
+.links .container {
+    align-items: center;
+}
 
 .sidebar {
     width: 300px;
@@ -156,6 +164,8 @@ p:last-child {
 
   .social:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
     opacity: 0.8;
   }
 
