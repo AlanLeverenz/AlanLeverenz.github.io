@@ -39,7 +39,8 @@ h3 {
     width: 120px;
     height: auto;
     float: left;
-    margin-right: 15px;
+    margin-right: 1em;
+    border: 0 none;
 }
 
 p:last-child {
@@ -81,12 +82,25 @@ p:last-child {
     width: 100%;
     border: 0 none;
     opacity: 1;
+    margin-bottom: .5em;
 }
+
+.work img:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transform: scale(1.05);
+    transition: 0.1s;
+  }
 
 .work h3 {
     font-weight: 300;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 700px) {
+    .work {
+        width: 100%
+    }
 }
 
 .auth-image {
