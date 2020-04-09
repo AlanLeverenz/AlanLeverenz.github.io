@@ -57,19 +57,22 @@ p:last-child {
 /* portfolio */
 
 .wrapper {
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+.wrapper-flex {
     display: flex;
     flex-direction: row;
-}
-.wrapper-flex {
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .work {
     width: 300px;
     position: relative;
-    margin: 0 1em;
+    margin: 0 1em 1em;
     display: inline-block;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -150,7 +153,3 @@ p:last-child {
     cursor: pointer;
     opacity: 0.6;
   }
-
-
-
-
