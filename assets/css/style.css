@@ -53,7 +53,7 @@ h3 {
 }
 
 .icon-image {
-    height: 60px;
+    height: 54px;
 }
 
 p:last-child {
@@ -136,8 +136,9 @@ p:last-child {
 
 /* sidebar */
 
-.links .container {
-    align-items: center;
+.links {
+    display:flex;
+    justify-content: space-around;
 }
 
 .sidebar {
