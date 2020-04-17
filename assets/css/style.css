@@ -53,7 +53,7 @@ h3 {
 }
 
 .icon-image {
-    height: 54px;
+    height: 48px;
 }
 
 p:last-child {
@@ -114,6 +114,9 @@ p:last-child {
 @media (max-width: 700px) {
     .work {
         width: 100%
+    }
+    .icon-image {
+        height: 40px;
     }
 }
 
