@@ -88,7 +88,7 @@ p:last-child {
   width: 300px;
   position: relative;
   margin: 0 1em 1em;
-  display: inline-block;
+  /* display: inline-block; */
   display: flex;
   flex-direction: column;
 }
